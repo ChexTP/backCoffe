@@ -114,3 +114,4 @@ export const profile =async (req,res)=>{
         email: userFound.email
     })
 }
+  

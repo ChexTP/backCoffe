@@ -11,7 +11,7 @@ router.post('/login',login)
 
 router.post('/logout',logout)
 
-router.get('/profile',authRequired, rolRequired('Operario'),profile)
+router.get('/profile',authRequired, rolRequired('Administrador'),profile)
 
 
 

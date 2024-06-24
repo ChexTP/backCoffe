@@ -16,4 +16,6 @@ router.get('/profile',authRequired, rolRequired('Administrador'),profile)
 
 
 
+
+
 export default router
